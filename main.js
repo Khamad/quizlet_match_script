@@ -4,7 +4,7 @@
   const tiles = document.querySelectorAll(tileQuery)
 
   const tileTextDescMatch = /(?:adj\.)|(?:n\.)|(?:v\.)/g
-  const tileTextExceptions = ["main factor affecting", "the ability to laugh at things and see when something is funny", "highly intelligent", "be demanding", "relationship which is not significant", "remember something bad done to you", "appear (about qualities)", "honest in a way that might hurt", "play a trick on", "suppress all of your emotions", "lose temper in a noisy and uncontrolled way", "do not mind a joke being played on", "make your friendship stronger", "help or assist in an action or enterprise", "do what one has promised", "offend"]
+  const tileTextExceptions = ["main factor affecting","the ability to laugh at things and see when something is funny","highly intelligent","be demanding","relationship which is not significant","remember something bad done to you","appear (about qualities)","honest in a way that might hurt","play a trick on","suppress all of your emotions","lose temper in a noisy and uncontrolled way","do not mind a joke being played on","make your friendship stronger","help or assist in an action or enterprise","do what one has promised","offend"]
   const tilesTextMap = {
     "adventurous": "adj. willing to take risks or to try out new methods, ideas, or experiences",
     "conscientious": "adj. wishing to do what is right",
@@ -47,7 +47,7 @@
     "hit a peak": "n. reach the highest point",
     "remain stable": "n. stabilize",
     "soar": "n. rise suddenly and rapidly",
-    "decline": "n.\na gradual fall",
+    "decline": "n.a gradual fall",
     "increase": "n. a rise in the size, amount, or degree of something",
     "plunge": "n. a steep fall",
     "a razor-sharp mind": "highly intelligent",
@@ -65,7 +65,6 @@
     "keep one's word": "do what one has promised",
     "hurt one's feelings": "offend"
   }
-
 
 
   const utils = (function() {
